@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(124, 136, 204);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left:1050px;
+    
+}
+h2{
+  text-align:center;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+}
+
+.lago2{
+    float: left;
+  padding: 6px 30px;
+}
+.lago3{
+    float: right;
+  padding: 6px 50px ;
+}
+#parraf{
+    text-align: left;
+    padding: 1px;
+}
+
+  .bor2{
+    background-color: rgb(0, 115, 255);
+    border:1px solid black ;
+    height: 150px;
+    
+  }
+  .bor3{
+    background-color: rgb(0, 106, 255);
+    border: 1px solid black;
+    height: 100px;
+  }
+  
+  .img1{
+  
+    float: left ;
+    padding: 3px 30px;
+  }
+ 
+  .img3{
+    float: right;
+    padding: 3px 30px;
+  }
+ 
+h4{
+  color: aliceblue;
+  text-align: center;
+}

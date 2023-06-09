@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./from.css">
+    <script src="./funcab.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Calculo de Precio</h2>
+    </header>
+    <body>
+        <form>
+            
+            <span>
+                Personas: <input type="number" id="n1" name="n1" placeholder="dias" required>*
+            </span>
+        <br>
+        <br>
+            <span>
+                Dias: <input type="number" id="n2" name="n2" placeholder="dias" required>*
+            </span>
+        <br>
+        <br>
+            <span>
+                Numero de telefono: <input  type="number" name="numero:" required>*
+            </span>
+        <br>
+        <br>
+            <span>
+                Cabaña: <select name="pais" class="pais">
+                    <option value="" selected="selecte" hidden="hidden">  </option>
+                    <option value="1"> cabaña 1</option>
+                    <option value="2">cabaña 2 </option>
+                    </select>
+            </span>
+        <br>
+        <br>
+            <span>Estacion: <input type="checkbox" >otoño</span>
+            <span><input type="checkbox" >verano</span>
+            <span><input type="checkbox" >invierno</span>
+        <br>
+        <br>
+            <button type="button" onclick="sumar()" id="formulario">Calcular</button>
+            <br>
+            <br>
+            
+            <button type="button" onclick="Borrar()" id="formulario">borrar</button>
+        </form>
+        <div id="resultado"></div>
+        <br>
+        <br>
+        <i>   <button> <a href="tp.html" target="blank"> Regresar</a> </button>
+</body>
+</html>
